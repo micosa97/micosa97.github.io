@@ -1,0 +1,50 @@
+body {
+	background: blue
+}
+header{
+	background: yellow;
+	color: white
+}
+
+header h1 {
+	color: blue;
+	display: inline;
+	padding-right: 10px;
+}
+
+footer ul {
+	color: green;
+
+}
+
+ ul li {
+	display : inline-block;
+	color: white;
+	background: black;
+	list-style-type: none;
+	padding: 5px 10px;
+}
+ ul {
+	margin: 0;
+	display: inline;
+}
+ ul li a {
+	color: white;
+}
+.row {
+
+}
+
+.col {
+	float: right;
+	padding: 20px;
+	margin: 1px;
+	width: 25%;
+	background: gray;
+	border-radius: 10px
+}
+
+footer {
+	clear: both;
+}
+

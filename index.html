@@ -27,8 +27,31 @@
   	.carousel-inner > .item > a > img {
       width: 100%;
       margin: auto;
-      
+    
   	}
+  	.logo {
+  		margin: 20px;
+  	}
+  	.carouesl {
+   max-height: 225px;
+   overflow: hidden;
+	}
+	.panel {
+		background-color: #dddddd	
+	}
+
+	h3 {
+		margin:40px;
+	}
+
+	h2 {
+		margin:50px;
+	}
+
+
+	body {
+    background-color: #808080;
+}
   	</style> 
 
     
@@ -63,42 +86,92 @@
         <li><a href="#Hobbies">Hobbies</a></li>
         <li><a href="#Contact">Contact</a></li>
       </ul>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#top">Michał Osadnik</a>
     </div>
   </div>
 </nav>
 
   
 <div class="container">
+
+
+
+
 	<div class="jumbotron text-center">	
 		<h1>Michał Osadnik</h1>
-		<div class = "lead"> Welcome to my website. I'm a student of Computer Science at AGH University of Science and Technology</div>	
+		<div class = "lead"> Welcome to my website. I'm a Computer Science student at AGH University of Science and Technology</div>	
 		<img src="myphoto.png" class="img-responsive center-block img-circle" alt="PHOTO" style="margin:0px auto;display:block"/>
 	</div>
 	
+	<div id = "About" class="panel">
+	<br><br>
+		<h2 style = "margin:40px">About me</h2>
+	<h3>I am a Computer Science student of the Faculty of Computer Science, Electronics and Telecommunications at AGH University of Science and Technology in Cracow. I am a creative and energetic person who is both hardworking and self-disciplined. Not only do I put effort into my academic tasks, but I also consider my self-development as a crucial issue.Nevertheless, I do not forget about neglect my non-IT passions. <br><br>
+		</h3>	
 
-		
-	<h2 id="University">University</h2>	
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	</div>
+	
+	<div id = "University" class="panel">
+	<br><br>
+	<h2>University</h2>	
+	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin:20px">
     <!-- Indicators -->
+    <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0"></li>
+	    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+  	</ol>
+
 
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
-      <div class="item active">
-        <img src="AGH.jpg" alt="Chania" class="d-block img-fluid " height="45">
-        <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
-      </div>
-
       <div class="item">
         <img src="D17.jpg" alt="Chania" class="d-block img-fluid "  height="45">
         <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          <h1>Faculty of Computer Science, Electronics and Telecommunications</h1>
+          
+        </div>
+      </div>
+    
+
+      <div class="item active">
+        <img src="AGH.jpg" alt="Chania" class="d-block img-fluid " height="45">
+        <div class="carousel-caption">
+          <h1>AGH</h1>
+          <h1>University of Science and Technology</h1>
+        </div>
+      </div>
+
+		
+      <div class="item logo">
+        <img src="AGH_logo.bmp" alt="Chania" class="d-block img-fluid logo" id="logo"  height="45" style="width: 100px">
+        <br>
+        <div><h3>
+        Due to my achievements in contests, I am proud to be a student oof f the Faculty of
+
+Computer Science, Electronics and Telecommunications since last October. This
+
+faculty gives me a brilliant wonderful opportunity to gain a great amount of
+
+knowledge and skills, but I find it insufficient, so I have decided to involve myself in a
+
+number of activities. During the first academic term, I was mainly focused on
+
+developing my algorithmic thinking. I participated in extra algorithmic and .NET
+
+classes in the BIT Science Club. Currently, I’m taking part in a few projects which I
+
+am carrying out with friends. Moreover, I have noticed a huge improvement of my
+
+soft-skills (the way I collaborate with partners and organize my time). I am the prefect
+
+of the year.</h3>
+
+        
+          
         </div>
       </div>
     
@@ -116,44 +189,14 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+  </div>
+  <div class="row">
+  </div>
 
   
 	
 
 </div>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p id="University">xD</p>
 
 
 
